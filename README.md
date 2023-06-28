@@ -1,14 +1,18 @@
-# Getting Started
+# Products API Example - Spring Boot 3
+
+This project was created to serve as an example implementation of Spring Boot 3.
+
+Created by Kleber - kleber.barreto@msn.com
 
 ### Reference Documentation
 For further reference, please consider the following sections:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.1/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.1/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#web)
+* [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+* [Maven](https://maven.apache.org/guides/index.html)
+* [Spring Boot 3](https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0)
+* [Spring Web MVC](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#web)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#data.sql.jpa-and-spring-data)
-* [Validation](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#io.validation)
+* [Spring Validation](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#io.validation)
 * [Spring HATEOAS](https://docs.spring.io/spring-boot/docs/3.1.1/reference/htmlsingle/#web.spring-hateoas)
 
 ### Guides
