@@ -64,6 +64,17 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.OK).body(productRepository.save(productModel));
     }
 
+    @PatchMapping("/{id}")
+    public ResponseEntity<Object> updateProductValue(@PathVariable(value = "id") UUID id, @RequestBody @Valid ProductRecordDto productRecordDto) {
+        Optional<ProductModel> product0 = productRepository.findById(id);
+        if(product0.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Product not found");
+        }
+        var productModel = product0.get();
+        productModel.setValue(productRecordDto.value());
+        return ResponseEntity.status(HttpStatus.OK).body(productRepository.save(productModel));
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteProduct(@PathVariable(value = "id") UUID id) {
         Optional<ProductModel> product0 = productRepository.findById(id);
